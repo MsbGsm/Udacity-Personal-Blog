@@ -1,0 +1,27 @@
+.main-grid {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr 3.5fr 1fr;
+  grid-template-rows: 6rem 35rem auto 6rem;
+  grid-template-areas: 
+    "hd hd hd"
+    "hero hero hero"
+    "main main main"
+    "ft ft ft";
+}
+
+.main-grid__header {
+  grid-area: hd;
+}
+
+.main-grid__main {
+  grid-area: main;
+}
+
+.main-grid__footer {
+  grid-area: ft;
+}
+
+.main-grid__postHero {
+  grid-area: hero;
+}

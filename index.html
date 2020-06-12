@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/homePage.css">
   <title>MsbGsm Blog</title>
 </head>
 <body>
   <div class="main-grid">
     <header class="header main-grid__header">
       <nav class="nav-bar">
-        <h1 class="logo"><a href="/">MsbGsm</a></h1>
+        <div class="logo"><a href="/">MsbGsm</a></div>
         <ul class="nav-bar__menu">
           <li class="nav-item"><a href="/">Home</a></li>
           <li class="nav-item"><a href="#">Subscribe</a></li>
@@ -21,8 +21,107 @@
         </ul>
       </nav>
     </header>
-    <main class="main-grid__main">
-      main
+    <main class="main-grid__main main-gradient">
+      <div class="homepage-grid">
+        <div class="homepage-grid__heading">
+          <h1 class="heading">
+            Latest Phone Tests,Reviews, Breaking News, and Leaking Updates
+          </h1>
+        </div>
+
+        <div class="homepage-grid__primary">
+          <a href="/blog-post.html">
+            <div class="card">
+              <img class="card__image" src="assets/iphone-11-pro.jpg" alt="iphone-11-pro">
+              <div class="card__info">
+                <h2 class="card__info--title">iPhone 11 Pro and 11 Pro Max: The ultimate camera</h2>
+                <a href="/blog-post.html" class="card__info--button btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="homepage-grid__secondary">
+          <a href="/">
+            <div class="card">
+              <img class="card__image" src="assets/galaxy-note-10-plus.jpg" alt="galaxy-note-10-plus">
+              <div class="card__info">
+                <h2 class="card__info--title">Samsung Galaxy Note 10: Everything you need to know!</h2>
+                <a href="/" class="card__info--button btn btn-secondary">Read More</a>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="homepage-grid__others-1">
+          <a href="/">
+            <div class="card-secondary">
+              <picture class="card-secondary__picture">
+                <img src="assets/fast-charging.jpg" alt="fast-charging" class="card-secondary__image">
+              </picture>
+              <div class="card-secondary__info">
+                <div class="card-secondary__title">Fast charging</div>
+                <div class="card-secondary__content">is more important than long battery life</div>
+                <div class="card-secondary__author">By T. Bonson</div>
+                <div class="card-secondary__button"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="homepage-grid__others-2">
+          <a href="/">
+            <div class="card-secondary">
+              <picture class="card-secondary__picture">
+                <img src="assets/smart-watch.jpg" alt="fast-charging" class="card-secondary__image">
+              </picture>
+              <div class="card-secondary__info">
+                <div class="card-secondary__title">Timex unveils</div>
+                <div class="card-secondary__content">is more important than long battery life</div>
+                <div class="card-secondary__author">By M. Neggara</div>
+                <div class="card-secondary__button"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="homepage-grid__others-3">
+          <a href="/">
+            <div class="card-secondary">
+              <picture class="card-secondary__picture">
+                <img src="assets/iphone-12.jpg" alt="fast-charging" class="card-secondary__image">
+              </picture>
+              <div class="card-secondary__info">
+                <div class="card-secondary__title">Fast charging</div>
+                <div class="card-secondary__content">is more important than long battery life</div>
+                <div class="card-secondary__author">By T. Bonson</div>
+                <div class="card-secondary__button"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="homepage-grid__others-4">
+          <a href="/">
+            <div class="card-secondary">
+              <picture class="card-secondary__picture">
+                <img src="assets/5g.jpg" alt="fast-charging" class="card-secondary__image">
+              </picture>
+              <div class="card-secondary__info">
+                <div class="card-secondary__title">Fast charging</div>
+                <div class="card-secondary__content">is more important than long battery life</div>
+                <div class="card-secondary__author">By T. Bonson</div>
+                <div class="card-secondary__button"></div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="homepage-grid__more">
+          <a href="#" class="btn btn-primary all-post-button">All Posts</a>
+        </div>
+
+      </div>
     </main>
     <footer class="footer main-grid__footer">
       <div class="social-media">
@@ -30,7 +129,6 @@
         <a href="#" class="media-link"><i class="fab fa-twitter media-icon"></i></a>
         <a href="#" class="media-link"><i class="fab fa-linkedin-in media-icon"></i></a>
       </div>
-      <div class="logo"><a href="/">MsbGsm</a></div>
     </footer>
   </div>
 </body>

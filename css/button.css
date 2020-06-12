@@ -1,0 +1,23 @@
+.btn,
+.btn:active,
+.btn:visited {
+  font-size: 1.6rem;
+  letter-spacing: .2rem;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  display: inline-block;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  color: #151515;
+  background-color: #fbd26b;
+}
+
+.btn-secondary,
+.btn-secondary:active,
+.btn-secondary:visited {
+  color: #fbd26b;
+  border: 1px solid #fbd26b;
+}
