@@ -6,6 +6,15 @@
   border-radius: 5px;
   padding: .5rem 2rem;
   display: inline-block;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .1s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
 }
 
 .btn-primary,

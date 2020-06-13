@@ -33,3 +33,34 @@
 .main-grid__aside-right {
   grid-area: asideR;
 }
+
+@media screen and (max-width: 1300px) {
+  .main-grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 6rem 25rem 25rem auto 6rem;
+    grid-template-areas: 
+      "hd hd"
+      "hero hero"
+      "main asideR"
+      "main asideL"
+      "ft ft";
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .main-grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 12rem 20rem auto auto 25rem 12rem;
+    grid-template-areas: 
+      "hd"
+      "hero"
+      "main"
+      "asideL"
+      "asideR"
+      "ft";
+  }
+}

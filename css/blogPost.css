@@ -115,7 +115,7 @@ p {
   text-align: justify;
 }
 
-section {
+section.post-section {
   margin-bottom: 5rem;
 }
 
@@ -129,13 +129,13 @@ section {
   margin-bottom: 2rem;
 }
 
-ul {
+ul.content-list {
   padding-left: 2rem;
   font-size: 1.6rem;
   line-height: 1.8;
 }
 
-li {
+ul.content-list li {
   margin-bottom: 2rem;
 }
 
@@ -150,21 +150,21 @@ blockquote {
   margin-bottom: 3rem;
 }
 
-.other-posts {
+.sidebar {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  margin: 0 2rem;
   background-color: #fff;
   padding: 2rem;
 }
 
 .card-secondary {
   flex-direction: column;
-  height: 30rem;
 }
 
 .card-secondary__picture {
   flex-basis: 50%;
+  position: relative;
 }
 
 .card-secondary__info {
@@ -183,4 +183,61 @@ blockquote {
 .card-link {
   display: block;
   margin-bottom: 2rem;
+}
+
+.read-tag {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: .2rem 1.5rem;
+  background-color: #FBD26B;
+  border-top-left-radius: 3px;
+}
+
+.all-post-button {
+  align-self: center;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: 1.6rem;
+}
+
+.input-group input {
+  height: 3rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.subscribe-form .btn {
+  align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .text-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .sidebar {
+    margin: 0;
+  }
+
+  .main-post {
+    padding: 4rem;
+  }
 }
