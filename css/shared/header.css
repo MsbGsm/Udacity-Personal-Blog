@@ -9,3 +9,9 @@
   top: 0;
   z-index: 5;
 }
+
+@media screen and (max-width: 760px) {
+  .header {
+    padding: 0 .5rem;
+  }
+}

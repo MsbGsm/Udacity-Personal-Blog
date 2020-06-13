@@ -1,3 +1,4 @@
+
 *,
 *::before,
 *::after {
@@ -11,4 +12,8 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  box-sizing: border-box;
 }

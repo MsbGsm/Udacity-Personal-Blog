@@ -41,3 +41,9 @@
     margin-bottom: 1.5rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .nav-item:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
