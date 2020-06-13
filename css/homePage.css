@@ -1,12 +1,12 @@
-@import "./base.css";
-@import "./typography.css";
-@import "./homePage-layout.css";
-@import "./card.css";
-@import "./card-secondary.css";
-@import "./button.css";
-@import "./header.css";
-@import "./nav-bar.css";
-@import "./footer.css";
+@import "./shared/base.css";
+@import "./shared/typography.css";
+@import "./shared/homePage-layout.css";
+@import "./shared/card.css";
+@import "./shared/card-secondary.css";
+@import "./shared/button.css";
+@import "./shared/header.css";
+@import "./shared/nav-bar.css";
+@import "./shared/footer.css";
 
 
 .main-gradient {
@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;/shared
   padding: 3rem;
   font-size: 2.4rem;
 }

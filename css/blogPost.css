@@ -1,12 +1,12 @@
-@import "./base.css";
-@import "./typography.css";
-@import "./header.css";
-@import "./footer.css";
-@import "./blogPost-layout.css";
-@import "./button.css";
-@import "./nav-bar.css";
-@import "./card-secondary.css";
-@import "./hero.css";
+@import "./shared/base.css";
+@import "./shared/typography.css";
+@import "./shared/header.css";
+@import "./shared/footer.css";
+@import "./shared/blogPost-layout.css";
+@import "./shared/button.css";
+@import "./shared/nav-bar.css";
+@import "./shared/card-secondary.css";
+@import "./shared/hero.css";
 
 .main-gradient {
   background: linear-gradient(180deg, #B0DCF5 0%, #D8D6CB 51.56%, #619DC9 100%);
