@@ -2,11 +2,11 @@
   display: grid;
   min-height: 100vh;
   grid-template-columns: 1fr 3.5fr 1fr;
-  grid-template-rows: 6rem 35rem auto 6rem;
+  grid-template-rows: 6rem 25rem auto 6rem;
   grid-template-areas: 
     "hd hd hd"
     "hero hero hero"
-    "main main main"
+    "asideL main asideR"
     "ft ft ft";
 }
 
@@ -24,4 +24,12 @@
 
 .main-grid__postHero {
   grid-area: hero;
+}
+
+.main-grid__aside-left {
+  grid-area: asideL;
+}
+
+.main-grid__aside-right {
+  grid-area: asideR;
 }
